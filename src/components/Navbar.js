@@ -90,9 +90,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="http://www.logicstime.com/"
-                target="_blank"
-                rel="noreferrer"
+              as={Link}
+              to="/blogs"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
