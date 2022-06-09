@@ -10,8 +10,6 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { MdDeveloperMode } from "react-icons/md";
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -37,7 +35,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Fahim Rimon
+          Fahim Rimon
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
