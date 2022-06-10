@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 function ResumeNew() {
 
   return (
-    <div className="mb-5">
+    <div style={{marginTop:"200px", marginBottom:"275px",}}>
       <Container fluid className="resume-section">
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
