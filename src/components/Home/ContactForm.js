@@ -16,7 +16,7 @@ const ContactForm = () => {
       style={{
         marginTop: "50px",
         width: "50%",
-        backgroundImage: `url('https://img.freepik.com/free-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000')`,
+        backgroundImage: `url('https://i.pinimg.com/originals/16/2a/36/162a36561536d6ed738e0ef1dac537d0.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
