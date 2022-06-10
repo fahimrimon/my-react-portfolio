@@ -6,7 +6,7 @@ import Project2 from "./Assets/Projects/project2.jpg";
 export const PROJECTS = [
   {
     image: Project1,
-    name: "Car Parts Shop",
+    name: "Delta Car Parts",
     technologyUsed: "ReactJS, React Router, ExpressJS, MongoDB, Firebase auth",
     description: "Dashboard for users and admins, Users can see their  order history, Admin can see payment history & The order status can be controlled by admin.",
     url: "https://delta-car-parts.web.app/",
