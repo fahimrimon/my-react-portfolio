@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/profile.png";
 import SocialMedia from "../SocialMedia";
+import ContactForm from "./ContactForm";
 import TypeWriter from "./TypeWriter";
 
 function Home() {
@@ -39,7 +40,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Container fluid className="home-about-section" id="about">
+      {/* <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
@@ -54,7 +55,8 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </Container> */}
+      <ContactForm></ContactForm>
     </section>
   );
 }
